@@ -1,0 +1,3 @@
+thewebcommandcenter.com {
+    reverse_proxy https://triv-ai.vercel.app
+}
