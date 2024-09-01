@@ -1,3 +1,6 @@
 thewebcommandcenter.com {
     reverse_proxy thewebcommandcenter.duckdns.org
+    tls {
+        dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+    }
 }
